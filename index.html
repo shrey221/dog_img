@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Display of Dog image using API</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                text-align: center;
+                margin: 20px;
+            }
+
+            #button_fetch {
+                padding: 10px 20px;
+                font-size: 18px;
+                background-color: #3498db;
+                color: #fff;
+                border: none;
+                border-radius: 4px;
+                cursor: pointer;
+            }
+
+            #button_fetch:hover {
+                background-color: #2980b9;
+                color: black;
+                font-size: 34px;
+            }
+
+            img {
+                max-width: 100%;
+                height: auto;
+                display: block;
+                margin: 20px auto;
+            }
+        </style>
+    </head>
+    <body>
+        <button id="button_fetch" onclick="fetchBooks()">Fetch Books</button>
+        <div>
+            <img src="" id="dog_img" alt="Fetching a dog image" />
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
